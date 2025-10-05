@@ -48,3 +48,49 @@ Os atendimentos são armazenados no navegador usando `localStorage` (chave `barb
 
 - Após instalar as dependências, o `npm audit` pode apontar vulnerabilidades moderadas de pacotes indiretos. Avalie antes de aplicar `npm audit fix --force`, pois pode introduzir breaking changes.
 - Todas as telas estão em português e preparadas para demonstração acadêmica.
+
+## 📸 Capturas de Tela
+
+Veja exemplos da interface do BarberPro Agenda:
+
+- **Dashboard de Atendimentos**
+  ![Dashboard](./docs/dashboard.png)
+- **Formulário de Novo Atendimento**
+  ![Formulário](./docs/formulario.png)
+- **Página Sobre**
+  ![Sobre](./docs/sobre.png)
+
+## 🛣️ Roadmap
+
+Funcionalidades planejadas para versões futuras:
+
+- [ ] Integração com API externa para backups dos atendimentos
+- [ ] Autenticação de usuários (barbeiros e clientes)
+- [ ] Filtros avançados e busca por nome/data
+- [ ] Exportação de agenda em PDF/CSV
+- [ ] Temas escuro/claro personalizáveis
+
+## 🤝 Como contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b minha-feature`)
+3. Commit suas alterações (`git commit -m 'feat: minha nova feature'`)
+4. Faça push para a branch (`git push origin minha-feature`)
+5. Abra um Pull Request
+
+Contribuições de código, documentação, sugestões e issues são muito bem-vindas!
+
+## ❓ FAQ
+
+**1. Os dados são perdidos ao atualizar a página?**  
+Não. Os dados ficam salvos no `localStorage` do navegador.
+
+**2. Posso usar em produção?**  
+Este projeto é para fins acadêmicos e demonstração. Para uso real, recomenda-se implementar autenticação e persistência em banco de dados.
+
+**3. Como resetar todos os atendimentos?**  
+Basta limpar o `localStorage` do navegador ou usar a opção de "Limpar agenda" (se disponível na interface).
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais informações.
