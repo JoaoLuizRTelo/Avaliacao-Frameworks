@@ -77,7 +77,7 @@
           Editando atendimento existente
         </v-chip>
         <v-chip v-else color="secondary" variant="tonal" class="text-uppercase">
-          Novo atendimento
+          Novo atendimento:
         </v-chip>
       </div>
 
@@ -103,7 +103,7 @@ const props = defineProps({
   },
   submitLabel: {
     type: String,
-    default: 'Salvar atendimento'
+    default: 'Salvar'
   }
 });
 

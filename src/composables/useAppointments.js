@@ -22,7 +22,7 @@ const defaultAppointments = [
   },
   {
     id: generateId(),
-    clientName: 'Ana Paula',
+    clientName: 'Jeferson Souza',
     service: 'Barba + Hidratação',
     date: toISODate(addDays(today, 2)),
     time: '14:30',

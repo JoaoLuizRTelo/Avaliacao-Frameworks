@@ -114,7 +114,7 @@ const headers = [
   { title: 'Ações', key: 'actions', sortable: false, align: 'end' }
 ];
 
-const submitLabel = computed(() => (editingId.value ? 'Atualizar atendimento' : 'Salvar atendimento'));
+const submitLabel = computed(() => (editingId.value ? 'Atualizar' : 'Salvar'));
 
 const handleSubmit = (payload) => {
   if (editingId.value) {

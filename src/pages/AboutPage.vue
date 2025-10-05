@@ -6,7 +6,7 @@
           <v-row class="align-center">
             <v-col cols="12" md="5">
               <v-img
-                src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&w=900&q=80"
+                :src="imagem"
                 alt="BarberPro"
                 class="rounded-xl"
                 height="240"
@@ -70,6 +70,8 @@
 </template>
 
 <script setup>
+import imagem from '@/assets/generated-img.png'
+
 const tags = ['Excelência no atendimento', 'Barba e cabelo', 'Equipe especializada', 'Experiência premium'];
 
 const schedules = [
@@ -82,7 +84,7 @@ const timeline = [
   {
     year: '2015',
     title: 'Fundação da BarberPro',
-    description: 'Nasceu em Curitiba a barbearia focada em atendimento personalizado.',
+    description: 'Nasceu em Sinop a barbearia focada em atendimento personalizado.',
     color: 'primary'
   },
   {
