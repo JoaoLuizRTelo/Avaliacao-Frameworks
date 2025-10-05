@@ -49,16 +49,6 @@ Os atendimentos são armazenados no navegador usando `localStorage` (chave `barb
 - Após instalar as dependências, o `npm audit` pode apontar vulnerabilidades moderadas de pacotes indiretos. Avalie antes de aplicar `npm audit fix --force`, pois pode introduzir breaking changes.
 - Todas as telas estão em português e preparadas para demonstração acadêmica.
 
-## 📸 Capturas de Tela
-
-Veja exemplos da interface do BarberPro Agenda:
-
-- **Dashboard de Atendimentos**
-  ![Dashboard](./docs/dashboard.png)
-- **Formulário de Novo Atendimento**
-  ![Formulário](./docs/formulario.png)
-- **Página Sobre**
-  ![Sobre](./docs/sobre.png)
 
 ## 🛣️ Roadmap
 
