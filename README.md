@@ -2,8 +2,8 @@
 
 Integrantes:
 
-JOÃO LUIZ RODIGHERO TELÓ
-BRUNO BORCARDT RAMOS
+JOÃO LUIZ RODIGHERO TELÓ;
+BRUNO BORCARDT RAMOS;
 VITOR RODRIGO FRAILLE PEREIRA
 
 Aplicação desenvolvida com **Vue 3**, **Vuetify 3** e **Vite** para demonstrar roteamento, componentização, diretivas Vue e persistência de dados em `localStorage`. O sistema simula a agenda de serviços de uma barbearia, incluindo CRUD completo de atendimentos, visão em cards e página institucional.
